@@ -125,6 +125,7 @@ virtio-win.iso包含各个windows版本下的virtio serial驱动，安装对应�
 
 
 
+
 参考文献：
 
 http://wiki.qemu.org/Features/QAPI/GuestAgent
