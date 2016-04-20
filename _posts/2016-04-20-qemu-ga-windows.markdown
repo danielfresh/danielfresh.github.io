@@ -33,12 +33,12 @@ wget https://fedorapeople.org/groups/virt/virtio-win/virtio-win.repo -O /etc/yu
 yum install virtio-win
 
 安装virtio-win包，virtio-win里包含windows virtio设备驱动，及qemu-ga的安装包。
-![](http://imglf2.ph.126.net/3S29BOmzOGtGdnvYbLMrQw==/1623829140744930608.png)
+![](http://danielfresh.github.io/img/virtio-iso.jpg)
 
 将msi安装文件和virtio-win.iso拷贝到windows下。
 
 virtio-win.iso包含各个windows版本下的virtio serial驱动，安装对应版本的驱动。
-![](http://imglf2.ph.126.net/GRDHUfz2Tn3x9h9wKbujvA==/6598288025601257687.png)
+![](http://danielfresh.github.io/img/win-dev.jpg)
 
 安装对应版本qemu-ga.msi，至此，qga安装完毕。
 
@@ -121,7 +121,7 @@ virtio-win.iso包含各个windows版本下的virtio serial驱动，安装对应�
 
 重新编译qemu-ga.exe，替换C:\Program Files\qemu-ga下的qemu-ga.exe，重启服务即可。（dll依赖，在/usr/x86_64-w64-mingw32/sys-root/mingw/bin/下可找到。）
 
-![](http://imglf1.ph.126.net/LK60EX3Y7EfFLcXaZW_VEQ==/4858258098126916801.png)
+![](http://danielfresh.github.io/img/result.jpg)
 
 
 
