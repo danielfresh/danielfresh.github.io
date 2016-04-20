@@ -127,8 +127,8 @@ virtio-win.iso包含各个windows版本下的virtio serial驱动，安装对应�
 
 参考文献：
 
-[http://wiki.qemu.org/Features/QAPI/GuestAgent](http://wiki.qemu.org/Features/QAPI/GuestAgent)
-[http://wiki.libvirt.org/page/Qemu_guest_agent](http://wiki.libvirt.org/page/Qemu_guest_agent)
-[http://fedoraproject.org/wiki/Windows_Virtio_Drivers](http://fedoraproject.org/wiki/Windows_Virtio_Drivers)
-[http://lists.gnu.org/archive/html/qemu-discuss/2014-11/msg00027.html](http://lists.gnu.org/archive/html/qemu-discuss/2014-11/msg00027.html)
+http://wiki.qemu.org/Features/QAPI/GuestAgent
+http://wiki.libvirt.org/page/Qemu_guest_agent
+http://fedoraproject.org/wiki/Windows_Virtio_Drivers
+http://lists.gnu.org/archive/html/qemu-discuss/2014-11/msg00027.html
 
