@@ -82,13 +82,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+        title: "LDaniel",
+        href: "http://www.cnblogs.com/ldaniel/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke的自留地",
-        href: "http://hmqk1995.github.io"
+        title: "XuXinkun",
+        href: "http://www.cnblogs.com/xuxinkun/"
     }
 ]
