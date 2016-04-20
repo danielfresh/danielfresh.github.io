@@ -2,7 +2,7 @@
 layout:     post
 title:      "qemu-ga & windows"
 subtitle:   "qemu-ga windows下的安装及监控开发"
-date:       2016-04-20 16:00:00
+date:       2016-04-20 00:00:00
 author:     "Daniel"
 header-img: "img/post-bg-re-vs-ng2.jpg"
 header-mask: 0.3
