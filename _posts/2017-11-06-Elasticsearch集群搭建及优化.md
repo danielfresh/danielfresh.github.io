@@ -11,7 +11,7 @@ tags:
     - elasticsearch
 ---
 
-##系统调优
+##系统调优##
 - **禁用swap**
   使用swapoff命令可以暂时关闭swap。永久关闭需要编辑/etc/fstab，注释掉swap设备的挂载项。
   > swapoff -a
@@ -55,7 +55,7 @@ tags:
 
   以上命令只是暂时生效，想要持久化配置可以编辑/etc/security/limits.conf，/etc/sysctl.conf。
 
-##ES调优
+##ES调优##
 - **集群规划**
   分离master节点，data节点和client节点。data节点只用来存储，索引数据，外部的索引和查询请求全部导向client节点，降低data节点的压力。（data节点故障和恢复时，涉及到分片的恢复和迁移，会造成比较大的io负载，影响集群整体索引和查询性能。）
 
