@@ -22,7 +22,7 @@ tags:
  
   并编辑/etc/sysctl.conf，加入swappiness设置。
 
-  如果因为一些原因，无法对swap进行操作，可以将ES配置中的memory_lock设置为true，从JVM层面保证内存数据交换到swap中。
+  如果因为一些原因，无法对swap进行操作，可以将ES配置中的memory_lock设置为true，从JVM层面保证内存数据不被交换到swap中。
   > bootstrap.memory_lock： true
   
   要注意的是，linux系统对lock memory的大小有限制（调整方法见下），可以通过ES接口查看是否设置成功。
